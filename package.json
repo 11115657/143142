@@ -1,0 +1,35 @@
+{
+  "name": "tactical-web-fps",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "A GitHub Pages compatible browser 3D tactical shooter vertical slice with procedural fallback assets, Blender-ready GLB slots, AI, missions, weapons, grenades, HUD, and deployment workflow.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "asset:manifest": "node tools/build-manifest.mjs",
+    "asset:validate": "node tools/validate-assets.mjs",
+    "deploy:check": "npm run typecheck && npm run build",
+    "asset:audit": "npm run asset:manifest && npm run asset:validate"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "latest",
+    "howler": "latest",
+    "three": "latest"
+  },
+  "devDependencies": {
+    "@types/three": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "prettier": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,9 @@
+export const GAME_TITLE = 'Tactical Web FPS'
+export const FIXED_DELTA = 1 / 60
+export const MAX_FIXED_STEPS = 5
+export const WORLD_GRAVITY = -18
+export const PLAYER_RADIUS = 0.38
+export const PLAYER_HEIGHT = 1.72
+export const PLAYER_EYE_HEIGHT = 1.62
+export const PLAYER_CROUCH_EYE_HEIGHT = 1.08
+export const DEG2RAD = Math.PI / 180

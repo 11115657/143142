@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-06-18T05:12:54.176Z",
+  "files": [
+    "README.md",
+    "characters/README.md",
+    "maps/README.md",
+    "textures/procedural/README.md",
+    "textures/procedural/bullet_damage_decal_atlas_1k.png",
+    "textures/procedural/concrete_worn_albedo_1k.png",
+    "textures/procedural/container_paint_atlas_1k.png",
+    "textures/procedural/ground_muddy_albedo_1k.png",
+    "textures/procedural/hud_tactical_icon_atlas_1k.png",
+    "textures/procedural/painted_metal_scratched_1k.png",
+    "textures/procedural/sandbag_fabric_1k.png",
+    "ui/crosshair.svg",
+    "ui/hitmarker.svg",
+    "weapons/README.md"
+  ]
+}

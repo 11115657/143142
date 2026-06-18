@@ -1,0 +1,8 @@
+{
+  "name": "Tactical Web FPS",
+  "short_name": "TWFPS",
+  "start_url": "./",
+  "display": "fullscreen",
+  "background_color": "#07111f",
+  "theme_color": "#07111f"
+}

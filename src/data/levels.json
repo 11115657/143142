@@ -1,0 +1,40 @@
+[
+  {
+    "id": "training_base",
+    "name": "Training Base",
+    "visualModel": "./assets/maps/training_base.glb",
+    "collisionModel": "./assets/maps/collision_training_base.glb",
+    "playerSpawn": [
+      0,
+      0,
+      12
+    ],
+    "enemySpawns": [
+      [
+        -12,
+        0,
+        -10
+      ],
+      [
+        9,
+        0,
+        -15
+      ],
+      [
+        18,
+        0,
+        0
+      ],
+      [
+        -20,
+        0,
+        7
+      ]
+    ],
+    "extractionZone": [
+      0,
+      0,
+      18
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07111f" />
+    <title>Tactical Web FPS - Realism Vertical Slice</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game-canvas" aria-label="Tactical Web FPS canvas"></canvas>
+      <div id="loading" class="screen loading-screen">
+        <div class="panel">
+          <div class="eyebrow">TACTICAL WEB FPS / VERTICAL SLICE</div>
+          <h1>Operation First Light</h1>
+          <p>正在初始化程序化训练基地、AI、武器、任务、HUD 与 GitHub Pages 兼容渲染路径…</p>
+          <div class="progress"><span id="loading-bar"></span></div>
+          <small id="loading-text">准备资源</small>
+        </div>
+      </div>
+      <div id="hud" class="hud hidden">
+        <div class="top-left mission-card">
+          <div id="mission-title" class="mission-title">Operation First Light</div>
+          <div id="mission-objective" class="mission-objective">进入训练基地</div>
+        </div>
+        <div class="top-center status-chip">WEB 3D TACTICAL PROTOTYPE · 原创占位资产 · Blender GLB Ready</div>
+        <div id="crosshair" class="crosshair"><span></span></div>
+        <div id="hitmarker" class="hitmarker hidden">×</div>
+        <div id="damage-vignette" class="damage-vignette"></div>
+        <div id="interaction" class="interaction hidden">按 F 交互</div>
+        <div class="bottom-left player-card">
+          <div class="stat-label">生命</div>
+          <div class="healthbar"><span id="health-fill"></span></div>
+          <div id="health-text" class="health-text">100 / 100</div>
+          <div class="stat-label stat-spacer">护甲</div>
+          <div class="armorbar"><span id="armor-fill"></span></div>
+          <div id="armor-text" class="health-text">护甲 55 / 55</div>
+          <div class="stat-label stat-spacer">体力</div>
+          <div class="staminabar"><span id="stamina-fill"></span></div>
+          <div id="stamina-text" class="health-text">体力 100 / 100</div>
+          <div id="kit-text" class="kit-text">X 医疗包 2   G 手雷 3</div>
+        </div>
+        <div class="bottom-right weapon-card">
+          <div id="weapon-name" class="weapon-name">AR-01</div>
+          <div id="ammo" class="ammo">30 / 120</div>
+          <div id="fire-mode" class="fire-mode">AUTO · 1/2/3 切换</div>
+        </div>
+        <div class="controls-hint">WASD 移动 · Shift 奔跑 · Ctrl 蹲伏 · 鼠标右键瞄准 · R 换弹 · F 交互 · X 医疗包 · G 手雷 · Tab 调试</div>
+        <div id="toast" class="toast hidden"></div>
+        <div id="debug" class="debug hidden"></div>
+      </div>
+      <div id="pause" class="screen pause-screen hidden">
+        <div class="panel">
+          <div class="eyebrow">已暂停</div>
+          <h2>战术控制</h2>
+          <p>点击画面继续，Esc 释放鼠标。当前版本是 GitHub Pages 兼容的单人 PVE 纵切原型，使用程序化资产和 Blender GLB 插槽。</p>
+          <ul>
+            <li>WASD 移动，Shift 奔跑，Ctrl 蹲伏，Space 跳跃</li>
+            <li>鼠标左键射击，右键瞄准，R 换弹，1/2/3 切换武器</li>
+            <li>F 交互，X 医疗包，G 手雷，Tab 显示/隐藏调试信息</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

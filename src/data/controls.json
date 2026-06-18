@@ -1,0 +1,11 @@
+{
+  "move": "WASD",
+  "sprint": "Shift",
+  "crouch": "Ctrl",
+  "jump": "Space",
+  "fire": "MouseLeft",
+  "aim": "MouseRight",
+  "reload": "R",
+  "interact": "F",
+  "debug": "Tab"
+}
